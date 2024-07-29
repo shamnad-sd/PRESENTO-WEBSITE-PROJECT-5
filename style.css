@@ -737,6 +737,12 @@ a {
     background-color: #353535;
     padding: 60px 40px;
 }
+.pricing-item3 {
+    height: 100%;
+    position: relative;
+    background-color: #353535;
+    padding: 60px 40px;
+}
 
 .na {
     text-decoration: line-through;
@@ -748,12 +754,27 @@ a {
     padding-left: 0;
 
 }
+.pricing-item3 ul {
+    list-style-type: none;
+    padding-left: 0;
+
+}
 
 .pricing-item ul li {
     padding: 10px 0;
 }
+.pricing-item3 ul li {
+    padding: 10px 0;
+}
 
 .pricing-item h3 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+
+
+}
+.pricing-item3 h3 {
     font-weight: 600;
     margin-bottom: 15px;
     font-size: 20px;
@@ -780,11 +801,19 @@ a {
 .pricing-item .bi-check {
     color: green;
 }
+.pricing-item3 .bi-check {
+    color: green;
+}
 
 .pricing-item ul i {
     font-size: 24px;
     padding-right: 3px;
 }
+.pricing-item3 ul i {
+    font-size: 24px;
+    padding-right: 3px;
+}
+
 
 .buy-btn {
     background-color: #1b1b1b;
@@ -1126,9 +1155,10 @@ a {
 
 .address {
     padding: 24px 0 30px 0;
-    
+
 }
-.tl{
+
+.tl {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin-top: 20px;
     padding: 24px 0 30px 0;
@@ -1137,9 +1167,10 @@ a {
     margin-right: 13px;
     margin-left: -11px;
     /* --bs-gutter-y: 1.5rem !important;  */
-    
+
 }
-.em{
+
+.em {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     width: 50%;
     padding: 24px 0 30px 0;
@@ -1147,27 +1178,201 @@ a {
     --bs-gutter-y: 0rem !important;
     margin-left: 8px;
 }
-.add1{
+
+.add1 {
     margin-top: -31px;
 }
-.down{
+
+.down {
     margin-top: -22px !important;
-    
+
 }
-.item1{
+
+.item1 {
     width: 100%;
 }
-.item2{
+
+.item2 {
     width: 100%;
 }
 
 /* footer */
-.footer-about h2{
+.footer-about {
+    line-height: 35px;
+}
+
+.footer {
+    height: 100%;
+}
+
+.footer-about h2 {
     font-size: 26px;
     font-weight: 700;
-    color: wh;
+    color: white;
+    margin-top: 20px;
 
+}
+
+.footer-contact {
+    color: white;
+
+}
+
+.social-linkss a {
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 9px;
+
+
+
+
+}
+
+.twitterr:hover,
+.facebookk:hover,
+.instagramm:hover,
+.linkedinn:hover {
+
+    color: #e03a3c;
+    border-color: #e03a3c;
+
+}
+
+.ph {
+    margin-bottom: 0;
+}
+
+.footer h4 {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+    padding-top: 20px;
+}
+
+.quick-link {
+    line-height: 35px;
+}
+
+.quick-link a {
+    color: gray;
+}
+
+.Our-Services a {
+    color: gray;
+
+}
+
+.Our-Services {
+    line-height: 35px;
+}
+
+.email a {
+    color: white;
+
+}
+
+.Our-Newsletter p {
+    color: white;
+    font-size: 15px;
+
+}
+
+.form-content {
+    position: relative;
+    padding: 6px 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.email-box {
+    padding: 4px;
+    border: 0;
+    background-color: black;
+    color: white;
+
+
+
+}
+
+.Subscribe-btn {
+    margin: -7px -8px -7px 0;
+    padding: 0 20px;
+    border-radius: 0 4px 4px 0;
+    border: 0;
+    background-color: #e03a3c;
+    color: white;
+    font-size: 700;
+
+
+}
+
+.email-box:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+
+}
+
+.copyright {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid rgb(88, 85, 85);
+}
+
+.copyright p {
+    color: white;
+    font-size: 15px;
+    margin-bottom: -18px;
+}
+
+.credits {
+    color: white;
+}
+.credits a{
+    color: #e03a3c;
 }
 
 /* footer */
 
+
+
+/* media query */
+@media only screen and (max-width: 600px){
+    .filter button{
+        font-size: 7px !important;
+        padding: -10px !important;
+        
+
+    }
+    .details{
+        margin-top: 180px !important;
+    }
+    .emoji i{
+        margin-left: 155px;
+    }
+    .pricing-item2{
+        margin-top: 91px;
+        height: 85%;
+    }
+    .pricing-item {
+        margin-top: 50px;
+    }
+    .pricing-item3{
+        margin-top: 50px;
+    }
+    
+
+
+} 
